@@ -1,0 +1,42 @@
+import os
+import numpy as np
+
+from scipy.stats import kurtosis, skew, entropy
+import pytest
+from scipy.fftpack import rfft, rfftfreq
+from datetime import datetime as dt
+
+import csv
+import datetime
+#from fCalculation import tdom, fdom
+from statistics import mode
+from statistics import StatisticsError
+#from createFolder import createFolder
+#from SFt_List import getSensors, getFeatures
+
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.feature_selection import SelectFromModel, RFE
+from sklearn.ensemble import RandomForestClassifier as RndFC
+from sklearn.svm import LinearSVC
+import pandas as pd
+# from createFolder import createFolder
+# from progressBar import progressBar
+
+from sklearn import metrics as met
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+
+import sys
+
+from sklearn import svm
+from sklearn.neural_network import MLPClassifier as ffp
+from sklearn.neighbors import KNeighborsClassifier as KNN
+
+from sklearn.model_selection import KFold
+
+
+
+import random as rnd
+#from scorePlots import plotScore, plot_confusion_matrix
+
+import itertools
